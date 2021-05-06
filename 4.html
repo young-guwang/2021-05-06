@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getkor(){
+            var kor = 95;
+            return kor;
+        }
+        function getmath(){
+            var math = 65;
+            return math;
+        }function getEng(){
+            var Eng = 88;
+            return Eng;
+        }
+    </script>
+</head>
+<body>
+    <script>
+        a = getkor(); 
+        b = getmath();
+        c = getEng();
+        d = a + b + c;
+        document.write("국어점수:" + getkor() + "<br/>");
+        document.write("수학점수:" + getmath() + "<br/>");
+        document.write("영어점수:" + getEng() + "<br/>");
+        document.write("총점 : " + (a + b + c + "<br/>"));
+        document.write("평균 : " + (d / 3 + "<br/>"));
+        document.write("평균 : " + parseInt(d / 3 * 100 ));
+
+    </script>
+</body>
+</html>
